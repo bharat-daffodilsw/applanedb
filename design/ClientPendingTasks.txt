@@ -1,0 +1,170 @@
+Doubt of amit sir
+    Do not want to  give setFields if displayField is given
+    Also said we are asking filterable, sortable, use this definition to save display here or not
+    When to use diff local db, do amit singh will make all his appication in applanedb --> crm1, crm2,p2p,otc etc...
+    How to give masters, do need to add menu, then how to restrict to send it to other local db
+
+    Nested menu click not working
+    AddField, onSave, it should be empty
+    Add Organization
+    Do not required ng watch on index, need to open menu on every click
+    Commit option so that can start development for Konnect/Daffodil/Mahaluxmi
+    Loading message on menu change etc....
+    Should we refresh view on saving
+    What if error comes in saving --> should we removed changes
+    Options to add new form group
+
+
+    How to add master data in admin db --> we will give access right to amit in admin db
+
+
+
+
+* Multiple FK binding proper in both object and string
+* Date filter and number filter
+* AutoSave in FK
+* JSON : object object showing in action's filter
+* Overflow auto and no of records issue in autocomplete
+* Nested table , two nested table in a form
+* Text field, remove on type binding
+* Role was not showing on selection
+* Display filed is defined as we are not showing it
+* Add fields, options[], add some value here ,  no options found in datamodel
+
+* Rich text editor
+
+
+* Add organization support
+* New Quick view
+* Update action
+* Header action
+
+ * DataModel : (4-5 days), Basic saving has been implement)
+    **Default value,(2D)
+    **Navigation, (2 h)
+    **Saving : Rohit (1 d)
+    ** Add Filter / Remove Filter
+    ** Add FTS
+    ** Filter interpretation for saving
+    ** Test cases
+ * Commit application : Rohit ( 2 D)
+ * Save user last state : Rohit ( 1 D)
+ * View merging --> (rohit 2d)
+    ** User + Admin + Developer :
+    ** Ordering in memory for columns, actions and childs
+
+ * Column menu --(Set filter, Set order, Set Group, Set Label, Set width) - (1 D)
+ * Editbale and Visible support in Grid and Form and Nested Grid (2 d) : Ashish
+ * Footer Aggregate ( 4 h) : Ashish
+ * Caching in FK
+ * Use of Tx
+
+
+ * Dashboard --> Unplanned
+ * Html view --> Unplanned
+ * Grid --> Drag and Drop and resize in column, rows (1 d) : Ashish
+ * Validation --> Mandatory ( Low P) Unplanned
+ *
+***************************apprx complete***************
+* Menu --> Submenus ( 4 hr) : Ashish
+* Renders and Editor (2 d) : Ashish
+    *** Multiple reference, File upload, Currency, Duration, Composite FK, Number : Ashish
+* BusyMessage + Warnings + ShortMessage + Confirm Box + Error Box ( 1 day) : Ashish
+* View control to user/admin --> (2 day)  : Ashish
+     **Add field,Edit Field, Add field to view, Triggers, Applications
+* Quick view + Menu trigger : Rohit(4 hrs)  --> Menu trigger done
+* User State + View State : Rohit : (1 D)
+* Filter Widget --> Orders, Filters and Groups (2 d) : Ashish : Assigned
+* Group by Grid / Tree (3 D) : Assigned to Naveen with Ashish
+*=======================================================================================================
+* User can switch admin and vice versa  : Naveen ( 2 hrs P4)
+        userState : admin : true or admin  :false, reload user state
+        workbench controller
+        we have two action in userOptions --> Swich to user and Switch to admin, it will be on the basis of some boolean variable
+* Popup support to open view :8 hrs (Naveen /Ashish P1)
+
+* Applications (Menu groups)
+    All applications
+        Create Application  :Rohit Bansal (2 hrs P1)
+* Menus
+    ** Child applications (Show in menu) (2 hrs P2)
+    ** Menus (Two level menus) with selection ( 2 hrs P1)
+    ** Setting  (4 hrs P1)
+            Menu Group
+                Edit application
+                Create Role
+                Edit roles
+                Add Database
+                Add user
+                Edit Menus
+                Add menu
+
+
+* Toolbar
+    Support to add in left, right and center, it will support of actionTemplate, if action Template not provided then it will add its own button
+    if center has not much space then it should move to next row
+    Left : Basic action
+    Right : Close and resize
+    Center --> UserPreferencePallete
+* QViews
+    menugroup
+    close current view
+    Open selected qview
+* Child view need to add watch on parent view, if parent get close, child it self need to close itself
+* DataModel --> Navigation and DefaultValue
+
+
+
+* On the basis of qviewselected
+    if it is empty show all of collections and onclick open the view
+    if it is not empty show quickviews[qviewselected] and on click show all quickviews in dropdown
+
+* Show insert, delete, save, update, refresh action on toolbar according to the role
+* Commit action on the toolbar, when role, user changes. While commit ask for commit on localdb and admindb
+* Action will be provided on center toolbar and pop up will open on click and options are
+        order
+             On select order, user select the field on which they applied order  [options --> asc,desc images]
+          groupby
+             On select group, user select the field on which they applied group
+          filter
+             On select filter, user select the field on which they applied filter
+
+* Right side of toolbar
+      Manage Fields and popup form open
+         label , labelGrid , labelForm
+         field , fieldGrid , fieldForm
+         multple : boolean
+         ui :  not mandatory
+         uiForm
+         uiGrid
+         defaultShow : true/false
+         visibilityGrid
+         visibilityForm
+         parentFieldId : [states in countries]
+         index :
+         indexForm :
+         indexGrid :
+         groups :
+         defaultValue
+
+      Define column groups and pop up form will open
+         label
+         noOfColumns
+         showColumnLabel
+         showGroupTitle
+         width
+         type : [flow panel]
+
+      Manage User Actions
+         Header Actions
+         Row Actions
+
+* On grid header, pop up action will be provided and options are
+      order
+      groupby
+      filters
+* Navigation
+
+* Busy Message
+* Confirm Action
+* You have some changes Do you want to navigate
