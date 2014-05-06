@@ -5,6 +5,7 @@
     "main":"index.js",
    
     "devDependencies":{},
+"dependencies":{"mocha":"*","mongodb":"*","chai":"*"},
     "scripts":{
        "test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$"
     },
