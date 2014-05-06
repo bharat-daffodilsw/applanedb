@@ -1,5 +1,5 @@
 {
-    "name":"ApplaneDB",
+    "name":"applanedb",
     "version":"0.0.1",
     "description":"Mongo DB",
     "main":"index.js",
@@ -10,12 +10,12 @@
     },
     "repository":{
         "type":"git",
-        "url":"https://github.com/bharat-daffodilsw/ApplaneDB"
+        "url":"https://github.com/bharat-daffodilsw/applanedb"
     },
     "author":"",
     "license":"BSD",
     "bugs":{
-        "url":"https://github.com/bharat-daffodilsw/ApplaneDB/issues"
+        "url":"https://github.com/bharat-daffodilsw/applanedb/issues"
     }
 	
 }
