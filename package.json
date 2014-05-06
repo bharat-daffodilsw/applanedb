@@ -6,7 +6,7 @@
     "dependencies":{},
     "devDependencies":{},
     "scripts":{
-        "test":"echo \"Error: no test specified\" && exit 1"
+       "test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$"
     },
     "repository":{
         "type":"git",
@@ -17,7 +17,5 @@
     "bugs":{
         "url":"https://github.com/bharat-daffodilsw/ApplaneDB/issues"
     }
-	"scripts": {
-"test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$"
-}
+	
 }
