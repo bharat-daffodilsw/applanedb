@@ -7,7 +7,7 @@
     "devDependencies":{},
 "dependencies":{"mocha":"*","mongodb":"*","chai":"*"},
     "scripts":{
-       "test": "sudo ./node_modules/mocha/bin/mocha --recursive -R xunit test/ > test-reports.x$"
+       "test": "sudo ./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$"
     },
     "repository":{
         "type":"git",
