@@ -18,7 +18,7 @@
  *
  */
 var expect = require('chai').expect;
-var ApplaneDB = require("ApplaneDB");
+var ApplaneDB = require("applanedb");
 var Config = require("./config.js");
 
 
