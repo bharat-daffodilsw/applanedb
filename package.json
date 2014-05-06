@@ -18,6 +18,6 @@
         "url":"https://github.com/bharat-daffodilsw/ApplaneDB/issues"
     }
 	"scripts": {
-"test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$
+"test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$"
 }
 }
