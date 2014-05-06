@@ -10,11 +10,14 @@
     },
     "repository":{
         "type":"git",
-        "url":"https://github.com/daffodilsw/ApplaneDB"
+        "url":"https://github.com/bharat-daffodilsw/ApplaneDB"
     },
     "author":"",
     "license":"BSD",
     "bugs":{
-        "url":"https://github.com/daffodilsw/ApplaneDB/issues"
+        "url":"https://github.com/bharat-daffodilsw/ApplaneDB/issues"
     }
+	"scripts": {
+"test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.x$
+}
 }
